@@ -1,0 +1,35 @@
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="Style.css">
+
+    </head>
+    <body>
+
+
+        <section class="form-wrap">
+          <div class="signIn">
+            <h3>Verify Email</h3>
+            <form id="verifyForm">
+              <input type="email" id="emailInputVerify" placeholder="Email" required>
+<br>
+              <input type="text" id="codeInputVerify" placeholder="Verification Code" pattern=".*" required>
+<br>
+              <input type="submit" value="Verify" href="HomePage.html">
+            </form>
+          </div>
+        </section>
+
+        <script src="js/vendor/jquery-3.1.0.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+        <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/cognito-auth.js"></script>
+    </body>
+</html>
